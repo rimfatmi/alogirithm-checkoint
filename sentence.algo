@@ -1,0 +1,54 @@
+ALGORITHM sentence_string
+VAR
+   sentence:string
+   i,nbvowels: integer
+   n,nbwords: integer
+   m,nbchar: integer
+BEGIN
+     bvowels:=0
+
+ for i:=0 to length.sentence
+
+ if (sentence[i]='a'||sentence[i]='e'||sentence[i]='i'||sentence[i]='o'||sentence[i]='u'||sentence[i]='y') then
+
+ nbvowels:=  nbvowels+1
+ return nbvowels
+ End_if
+
+
+
+  nbwords:=0
+
+ for n:=0 to length.sentence
+
+ if (sentence[i]=' ') then
+
+ nbwords:=nbwords+1
+ return nbwords
+ End_if
+
+ nbchar:=0
+ while(sentence[i]!='.')
+
+ nbchar:=nbchar+1
+ m++
+ return nbchar
+ 
+
+END
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+# alogirithm-checkoint
+# alogirithm-checkoint
